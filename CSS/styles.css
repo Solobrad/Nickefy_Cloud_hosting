@@ -698,12 +698,12 @@ body {
 
 .nav__brand img{
   transform: translateY(5px);
-
-  max-width: 100px; /* Adjust the maximum width as needed */
+  max-width: 18rem; /* Adjust the maximum width as needed */
   height: auto; /* Maintain aspect ratio */
 }
 
 @media screen and (min-width: 768px) {
+
   .nav__toggler {
     display: none;
   }
@@ -722,7 +722,6 @@ body {
 }
 
 /* Hero */
-
 .hero__tagline {
   font-size: 2rem;
   color: #b9c3cf;
