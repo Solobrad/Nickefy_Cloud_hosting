@@ -4,7 +4,7 @@
    --color-primary: #2584ff;
    --color-secondary: #00d9ff;
    --color-accent: linear-gradient(to right, #39CFF2, #80FBA6);
-
+   --color-link: #5CCD7B;
    --color-headings: #1b0760;
    --color-body: #918ca4;
    --color-body-darker: #5c5577;
@@ -84,7 +84,7 @@ body {
  }
  
  .link-arrow {
-   color: var(--color-accent);
+   color: var(--color-link);
 
    text-transform: uppercase;
    font-size: 2rem;
@@ -248,7 +248,7 @@ body {
  }
  
  .btn--accent:hover {
-   background: #ec3000;
+   background: linear-gradient(to right, #1e97c6, #80FBA6);
  }
  
  .btn--outline {
